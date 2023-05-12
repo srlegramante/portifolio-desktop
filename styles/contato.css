@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+  background-image: url(../img/back-123.jpg);
+}
+
+nav {
+    background-color: transparent;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: center;
+  }
+  
+  nav a {
+    display: block;
+    padding: 15px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    font-size: xx-large;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+.footer {
+    background-color: #373d38;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}

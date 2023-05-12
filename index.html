@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen" />
+    <link rel="icon" href="img/icon_sit.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Sr Legramante</title>
+</head>
+<br>
+<body>
+  <li><a href="index.html"><img src="img/icon-home-page.png" width="64px" height="64px"></a></li>
+
+    <!--menu-bar-->
+    <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+      <div class="slider">
+
+        <div class="slides">
+          <!--Radio buttons-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--Radio buttons final-->         
+
+          <!--slides imagens-->
+          <div class="slide first">
+            <img src="img/slide1.png" alt="img 1">
+          </div>
+          <div class="slide">
+            <img src="img/slide2.jpeg" alt="img 2">
+          </div>
+          <div class="slide">
+            <img src="img/slide3.jpg" alt="img 3">
+          </div>
+          <div class="slide">
+            <img src="img/slide4.jpg" alt="img 4">
+          </div>
+          <!--fim slide-->
+
+          <!--navegation auto-->
+          <div class="navegation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+
+        </div>
+
+      <div class="manual-navegation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>  
+
+      </div>
+
+      <div class="colunas">
+        <!-- conteúdo das colunas vai aqui -->
+        <div class="colunas">
+          <div class="coluna-esquerda">
+            <h2>Desenvolvedor em busca de conhecimento</h2>
+            <p>Com foco em desenvolvimento em python e website.</p>
+          </div>
+          <div class="coluna-direita">
+            <h2>Trabalhando em equipe</h2>
+            <p>Contando com Design, trafego pago e criador de website.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="linha">
+
+        <div class="coluna">
+          <h2><u>Template de website para roupas.</u></h2> <br>
+          <img src="img/img-website.png" width="800px" height="400px">
+        </div>
+
+        <div class="coluna-art">
+          <h2><u>Sobre mim</u></h2>
+          <p class="artigo">Sou um estudante de 19 anos em busca de conhecimento constante, tudo que posso aprender faço o possivel para colocar em pratica, podendo ver resultados satisfatórios.
+            Gosto muito de como a tecnologia vem facilitando a vida das pessoas e, meu foco é criar algo que assim possa ajudar a todos.
+          </p> <br>
+          <img id="img" src="img/me.png" width="240px" height="275px">
+        </div>
+      </div>
+
+      <!--box de avaliação-->
+      <div class="linha">
+        <div class="coluna">
+
+          <div class="box-avaliacao">
+            <h2><u>Avalie o nosso site</u></h2> <br>
+            <form>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required><br><br>
+        
+              <label for="avaliacao">Avaliação:</label> 
+              <textarea id="avaliacao" name="avaliacao" rows="4" cols="50" required></textarea><br>
+        
+              <input id="send" type="button" value="Enviar" onclick="enviarAvaliacao()">
+            </form>
+          </div>
+
+        </div>
+
+        <div class="coluna">
+          <h2><u>Avaliações</u></h2> <br><br><br>
+          <div class="box-resultado" id="box-resultado"></div>
+        </div>
+      </div> <br> <br> <br> <br> <br>
+
+      <br>
+      <div class="box-botao">
+        <button class="botao" onclick="alert('Olá, não temos um Bot no momento, mas posso garantir que em breve será recipitado de uma forma mais agradevél :D')"
+        ><img src="img/giphy-unscreen.gif" width="140px" height="64px"></button>
+      </div> <br> <br> <br> <br> <br>
+
+      <footer>
+        <div class="footer">
+          <p>Erik Legramante 2023 ©Copyright</p>
+        </div>
+      </footer>
+      <script src="styles/script.js"></script>
+</body>
+</html>
